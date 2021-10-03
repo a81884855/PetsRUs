@@ -7,33 +7,20 @@ import './index.css';
 
 
 function Homepage() {
- //conditionally render signup page
-
- function showSignup() {
-
-   if (Auth.loggedIn()) {
-     return (
-       <div>
-         <div className="AddPetSection">
-           <UserInfo />
-           <PetList />
-         </div>
-       </div>
-     );
-   } else {
-     return (
-       <div>
-         <Signup />
-       </div>
-     );
-   }
- }
-
- return (
-   <div>
-     {showSignup()}
-   </div>
- );
+  return (
+    <div>
+      {
+        Auth.loggedIn()
+          ? <div className="AddPetSection">
+            <UserInfo />
+            <PetList />
+          </div>
+          : <div>
+            <Signup />
+          </div>
+      }
+    </div>
+  );
 }
 
 export default Homepage;

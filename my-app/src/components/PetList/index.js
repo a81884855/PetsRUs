@@ -1,0 +1,70 @@
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+// import { useQuery, useMutation } from '@apollo/react-hooks';
+// import { ADD_LIKED_PET } from '../../../../CLIENT/Utils/mutations';
+// import { QUERY_PETS } from "../../../../CLIENT/Utils/queries";
+// import { savePetIds, getSavedPetIds } from '../../../../CLIENT/Utils/localStorage';
+import './index.css';
+
+const PetList = ({ pets }) => {
+
+    // const { loading, data } = useQuery(QUERY_PETS);
+
+    // console.log('pet data', data);
+
+    // const [addLikedPet] = useMutation(ADD_LIKED_PET);
+    // const [savedPetIds, setSavedPetIds] = useState(getSavedPetIds());
+
+    // if (!data) {
+    //     return <p></p>
+    // }
+
+    // create function to handle saving a pet to our database
+    const handleLikedPet = async (petId) => {
+
+        console.log(petId);
+
+        // try {
+        //     const { data } = await addLikedPet({
+        //         variables: {
+        //             _id: petId
+        //         },
+        //     });
+        //     console.log('data44', data);
+        // }
+        // catch (error) {
+        //     console.error(error);
+        // }
+    };
+
+    return (
+        <div className="PetListingsContainer">
+            <div className="AvailablePetsTitle">Pets available for adoption:</div>
+            <div className="AvailablePetsContainer">
+                {/* {!loading && data.pets.map(pet => (
+                    <div className="SinglePetListings" key={pet._id}>
+                        <ul className="PetInfo">
+                            <li>{pet.name} - ({pet.type})</li>
+                            <li>Age: {pet.age} - {pet.gender}</li>
+                            <li>Location: {pet.location}</li>
+                            <li>Fixed: {pet.fixed}</li>
+                            <li>{pet.description}</li>
+                            <li>Interested in adopting {pet.name}?</li>
+                            <li>Contact: {pet.petemail}</li>
+                        </ul>
+
+                        <button
+                            // disabled={false}
+                            className='LikePetBtn'
+                            onClick={() => handleLikedPet(pet._id)}>
+                            Save Pet
+                        </button>
+                    </div>
+                ))} */}
+            </div>
+            <Link to="/addPetForm" className="CreateListingBtn">Create Listing</Link>
+        </div>
+    );
+}
+
+export default PetList;
