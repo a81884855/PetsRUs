@@ -1,0 +1,13 @@
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: serif;
+    background-color: #ffffff;
+    color: #69d3c4;
+    height: 10vh;
+    width: 100vw;
+    font-size: 0.75em;
+    margin: 1em;
+  }

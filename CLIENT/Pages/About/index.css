@@ -1,0 +1,267 @@
+img {
+    width: 35%;
+    height: auto;
+  }
+  
+  .AboutContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ffffff;
+    width: 65%;
+    height: 85%;
+    margin: 0.25em 0.5em;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    border: solid 5px rgba(0, 255, 234, 0.4);
+  }
+  
+  .AboutOuterContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .AboutInnerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: scroll;
+  }
+  
+  .AboutInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 12.5%;
+  }
+  
+  .AboutDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: serif;
+    text-align: center;
+    color: #69d3c4;
+    font-size: 1.25em;
+    height: 10%;
+  }
+  
+  .CreatorInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 55%;
+  }
+  
+  .CreatorContainers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 75%;
+  }
+  
+  .CreatorRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .CreatorContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    margin: 0.5em;
+  }
+  
+  .CreatorDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #69d3c4;
+    font-family: serif;
+    font-size: 1em;
+  }
+  
+  .CreatorName {
+    font-size: 1.5em;
+  }
+  
+  .CreatorRole {
+    font-size: 1em;
+  }
+  
+  .CreatorLinks {
+    font-size: 0.75em;
+  }
+  
+  .CreatorLinks:hover {
+    font-size: 1em;
+  }
+  
+  .BackToHomepageBtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 130%;
+    font-family: serif;
+    background-color: #69d3c4;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    margin: 1.5%;
+    width: 25%;
+    height: 10%;
+  }
+  
+  .BackToHomepageBtn:hover {
+    box-shadow: 0 0 10px rgba(0, 255, 234, 0.8);
+  }
+img {
+  width: 35%;
+  height: auto;
+}
+
+.AboutContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ffffff;
+  width: 65%;
+  height: 85%;
+  margin: 0.25em 0.5em;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  border: solid 5px rgba(0, 255, 234, 0.4);
+}
+
+.AboutOuterContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.AboutInnerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: scroll;
+}
+
+.AboutInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 12.5%;
+}
+
+.AboutDescription {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: serif;
+  text-align: center;
+  color: #69d3c4;
+  font-size: 1.25em;
+  height: 10%;
+}
+
+.CreatorInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 55%;
+}
+
+.CreatorContainers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 75%;
+}
+
+.CreatorRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.CreatorContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+  margin: 0.5em;
+}
+
+.CreatorDescription {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: #69d3c4;
+  font-family: serif;
+  font-size: 1em;
+}
+
+.CreatorName {
+  font-size: 1.5em;
+}
+
+.CreatorRole {
+  font-size: 1em;
+}
+
+.CreatorLinks {
+  font-size: 0.75em;
+}
+
+.CreatorLinks:hover {
+  font-size: 1em;
+}
+
+.BackToHomepageBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 130%;
+  font-family: serif;
+  background-color: #69d3c4;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  margin: 1.5%;
+  width: 25%;
+  height: 10%;
+}
+
+.BackToHomepageBtn:hover {
+  box-shadow: 0 0 10px rgba(0, 255, 234, 0.8);
+}
+  
